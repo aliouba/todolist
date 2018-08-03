@@ -6,11 +6,11 @@ This API Service is built in Django 2.1, Python 3.7.0 and Postgres 10.4.
 
 To deploy easily, the dockerfile docker-compose files were generated. 
 
-1 .Install Docker (https://docs.docker.com/install/) and Docker Compose (https://docs.docker.com/compose/install/)
+1. Install Docker (https://docs.docker.com/install/) and Docker Compose (https://docs.docker.com/compose/install/)
 
-2 .Clone this repository: git clone https://github.com/aliouba/todolist
+2. Clone this repository: git clone https://github.com/aliouba/todolist
 
-3 .Deploy with "docker-compose up" commmand. The API Service port exposed is 8000.
+3. Deploy with "docker-compose up" commmand. The API Service port exposed is 8000.
 
 4. Populate Postgres Database: docker exec -it todolist_web_1 python3 manage.py migrate
 
