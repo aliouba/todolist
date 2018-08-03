@@ -28,9 +28,9 @@ METHOD: POST
 
 HEADER: Content-Type:application/json
 
-DATA: {"password": "<password>","username": "<username>"}
+DATA: {"password": "Your Password","username": "Your Username"}
 
-Response: {"key": "<Your Token>"}
+Response: {"key": "Your Token"}
   
 Response Code:  200
 
