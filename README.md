@@ -17,6 +17,7 @@ To deploy easily, the dockerfile docker-compose files were generated.
 5. Create super Admin User: docker exec -it todolist_web_1 python3 manage.py createsuperuser
 
 6. You can create additinal users via django admin console (/admin/)
+
 ## API ENDPOINTS
 
 # Login 
@@ -130,7 +131,7 @@ Response: {
 
 Response Code:  200
 
-# Delete an item todo item
+# Delete a todo item
 
 URL: /todolist/<item ID>/
 
