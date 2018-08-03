@@ -40,7 +40,7 @@ URL: /rest-auth/logout/
 
 METHOD: POST 
 
-HEADER: Content-Type:application/json, Authorization: Token + <Your Token>
+HEADER: Content-Type:application/json, Authorization: Token + Your Token
 
 Response: { "detail": "Successfully logged out."}
 
@@ -52,7 +52,7 @@ URL: /todolist/
 
 METHOD: POST 
 
-HEADER: Content-Type:application/json, Authorization: Token + <Your Token>
+HEADER: Content-Type:application/json, Authorization: Token + Your Token
 
 Data: {"name": "My todo item name","description": "My todo item Description"}
 
@@ -72,7 +72,7 @@ URL: /todolist/
 
 METHOD: GET 
 
-HEADER: Content-Type:application/json, Authorization: Token + <Your Token>
+HEADER: Content-Type:application/json, Authorization: Token + Your Token
 
 Response: [
     {
@@ -95,11 +95,11 @@ Response Code:  200
 
 # Get a single todo item
 
-URL: /todolist/<item ID>/
+URL: /todolist/item ID/
 
 METHOD: GET 
 
-HEADER: Content-Type:application/json, Authorization: Token + <Your Token>
+HEADER: Content-Type:application/json, Authorization: Token + Your Token
 
 Response: {
     "id": <item ID>,
@@ -113,11 +113,11 @@ Response Code:  200
 
 # Modify a single todo iem (eg mark it as completed)
 
-URL: /todolist/<item ID>/
+URL: /todolist/item ID/
 
 METHOD: PUT 
 
-HEADER: Content-Type:application/json, Authorization: Token + <Your Token>
+HEADER: Content-Type:application/json, Authorization: Token + Your Token
 
 Data: {"completed": 1}
 
@@ -133,11 +133,11 @@ Response Code:  200
 
 # Delete a todo item
 
-URL: /todolist/<item ID>/
+URL: /todolist/item ID/
 
 METHOD: DELETE 
 
-HEADER: Content-Type:application/json, Authorization: Token + <Your Token>
+HEADER: Content-Type:application/json, Authorization: Token + Your Token
 
 Response: EMPTY
 
